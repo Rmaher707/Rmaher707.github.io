@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(135deg, #073731, #0d4a3e);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .thank-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 45px;
+      border-radius: 25px;
+      box-shadow: 0 0 20px rgba(0, 255, 200, 0.15);
+      text-align: center;
+      max-width: 520px;
+      width: 90%;
+    }
+
+    .emoji {
+      font-size: 2.5rem;
+      animation: float 2.5s ease-in-out infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #e7f7f6;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #d1f3ef;
+    }
+
+    .btn {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 10px 25px;
+      border-radius: 30px;
+      background-color: #f0d68c;
+      color: #05352c;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 12px #f0d68c;
+    }
+
+    strong {
+      display: block;
+      margin-top: 15px;
+      font-size: 1.2rem;
+      color: #fffad3;
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-card">
+    <div class="emoji">🌟🌟🌟</div>
+    <h1>Thank You for Visiting</h1>
+    <p>
+      Thank you for giving your time here.<br>
+      Even a small step matters in your journey.<br><br>
+      You moved with calm, you breathed with care — and that is enough.<br>
+      Be proud of yourself. You’re doing your best.<br><br>
+      Come back whenever your heart needs peace.<br>
+      Until then… take care, stay kind, and keep going strong. 🌸<br><br>
+      <strong>Goodbye, for now. 🌙</strong>
+    </p>
+    <a href="../index.html" class="btn">Back to Home</a>
+  </div>
+</body>
+</html>
